@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archie Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/reset.css">
+</head>
+<body>
+
+    <div class="container">
+      <header class="title">
+         <h1>Archie Trivia Game</h1>
+        <img src="assets/images/archie1.jpg" class="img-fluid text-center" id="main-logo" height="500" width="500" alt="Archie pic">
+          <p>Test your knowledge of Archie Comics with this multiple choice trivia game. You have 30 seconds to answer all the questions and the game ends automatically when time has elapsed. Good luck!</p>
+      </header>
+      <div id="quiz">
+          
+          <button id= "play">Play </button>
+        </div>
+        <div id =timer> you have <span id="countdown"><strong> 30 </strong></span> <strong>seconds to go !!</strong></div>
+        <div id="question">
+            <div id = start>
+        <form>
+            <label>"Where do Archie and his friends live?"</label>
+            <br>
+            <input type="radio" id="radio" name="answer1" value="Riverdale "> Riverdale
+            <br>
+            <input type="radio" id="radio" name="answer1" value="Bedrock"> Bedrock
+            <br>
+            <input type="radio" id="radio" name="answer1" value="California"> California
+            <br>
+            <br>
+            <label>"What has Archie nicknamed his car?"</label>
+            <br>
+            <input type="radio" id="radio" name="answer2" value="Old Betsy"> Old Betsy
+            <br>
+            <input type="radio" id="radio" name="answer2" value="Lemon"> Lemon
+            <br>
+            <input type="radio" id="radio" name="answer2" value="Big Ethel"> Big Ethel
+            <br>
+            <br>
+            <label>"Who is Archie's best friend?"</label>
+            <br>
+            <input type="radio" id="radio" name="answer3" value="Reggie "> Reggie
+            <br>
+            <input type="radio" id="radio" name="answer3" value="Jughead  "> Jughead
+            <br>
+            <input type="radio" id="radio" name="answer3" value="Moose"> Moose
+            <br>
+            <br>
+            <label>"Who is Archie's rival?"</label>
+            <br>
+            <input type="radio" id="radio" name="answer4" value="Jughead"> Jughead
+            <br>
+            <input type="radio" id="radio" name="answer4" value="Reggie"> Reggie
+            <br>
+            <input type="radio" id="radio" name="answer4" value="Betty"> Betty
+            <br>
+            <br>
+            <label>"Where does the gang hangout?"</label>
+            <br>
+            <input type="radio" id="radio" name="answer5" value="Pop Tates "> Pop Tates
+            <br>
+            <input type="radio" id="radio" name="answer5" value="Bowling Alley "> Bowling Alley
+            <br>
+            <input type="radio" id="radio" name="answer5" value="Corner Store"> Corner Store
+            <br>
+            <br>
+          </form>
+          <br>
+      </div>
+      <button id="done">Done</button>
+  </div>
+  <div id=results>
+      <h1>RESULTS</h1>
+      <p>Correct: <span id=correct>0</span></p>
+      <p>Incorrect: <span id=incorrect>0</span></p>
+      <p>Missed: <span id=blank>0</span></p>
+      <button id="restart">Try Again!!</button>
+  </div>
+</div>
+  <div class="footer">
+      &copy;Copyright Praisy John
+</div>
+</div>
+</div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
